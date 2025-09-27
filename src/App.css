@@ -1,0 +1,110 @@
+/* App.css */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+}
+
+section {
+  width: 100%;
+  display: none;
+}
+section.active {
+  display: block;
+}
+
+.container {
+  max-width: 420px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.form-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form input,
+.form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.btn.green {
+  background: #28a745;
+  color: #fff;
+}
+.btn.green:hover {
+  background: #218838;
+}
+.switch {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+.switch a {
+  color: #28a745;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Ride Section */
+.ride-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.ride-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ride-form input,
+.ride-form select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.price-display {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #28a745;
+}
+
+.cancel-btn {
+  background: #dc3545;
+  color: #fff;
+}
+.cancel-btn:hover {
+  background: #c82333;
+}
